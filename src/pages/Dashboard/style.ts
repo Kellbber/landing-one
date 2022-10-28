@@ -11,7 +11,6 @@ ${({theme})=>css`
 `}
 
 `
-
 export const imgTop = styled.div`
 display: flex;
 width: 100%;
@@ -20,6 +19,7 @@ background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
 height: 100vh;
+
 
 
 
