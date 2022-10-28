@@ -5,6 +5,7 @@ import { useState, useEffect } from "react";
 
 import {AiOutlineArrowDown} from 'react-icons/ai'
 import About from "../../components/About";
+import BoxService from "../../components/BoxService";
 const Dashboard = () => {
   
   const [color, setColor] = useState<boolean>(false);
@@ -49,8 +50,8 @@ const Dashboard = () => {
         role para baixo <AiOutlineArrowDown size={15}/>
        </S.arrowAnimated>
       </S.imgTop>
-
       <About/>
+      <BoxService/>
     </S.background>
   );
 };
