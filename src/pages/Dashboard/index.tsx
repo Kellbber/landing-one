@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../../components/Header";
 import * as S from "./style";
 import { useState, useEffect } from "react";
+
 import {AiOutlineArrowDown} from 'react-icons/ai'
 const Dashboard = () => {
   
@@ -21,7 +22,7 @@ const Dashboard = () => {
       <S.imgTop>
         <Header action={color} />
         <S.topText>
-          <p>FRONTEND DEVELOPER & UI/UX</p>
+          <p>DESENVOLVEDOR FRONT-END & UI/UX</p>
         </S.topText>
         <S.textRotate>
           <S.textContainer>
@@ -40,8 +41,8 @@ const Dashboard = () => {
        Tornando o seu maior sonho em realidade.
        </S.textFinal>
        <S.divIcons>
-        <S.imgGit/>
-        <S.imgLink/>
+        <S.imgGit href="https://www.github.com/Kellbber" target="blank"/>
+        <S.imgLink href="https://www.linkedin.com/in/kellbber/" target="blank"/>
        </S.divIcons>
        <S.arrowAnimated>
         Scroll down <AiOutlineArrowDown size={15}/>

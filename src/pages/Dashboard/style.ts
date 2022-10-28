@@ -174,7 +174,7 @@ export const divIcons = styled.div`
   justify-content: center;
   width: 100%;
 `;
-export const imgGit = styled.img`
+export const imgGit = styled.a`
   display: flex;
   padding: 0.8rem;
   background: url(${github});
@@ -197,7 +197,7 @@ export const imgGit = styled.img`
   }
 `;
 
-export const imgLink = styled.img`
+export const imgLink = styled.a`
   display: flex;
   padding: 0.8rem;
   background: url(${linkedin});
