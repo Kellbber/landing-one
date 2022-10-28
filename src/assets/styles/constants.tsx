@@ -2,5 +2,7 @@ export const constants = {
     
     logoFontFamily: "Vollkorn",
     
-    menuFontFamily: "Open Sans"
+    menuFontFamily: "Open Sans",
+
+    textTopFontFamily:"Oswald"
 }
