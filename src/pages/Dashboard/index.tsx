@@ -19,7 +19,7 @@ const Dashboard = () => {
   window.addEventListener("scroll", changeBackground);
 
   return (
-    <S.background>
+    <S.background id="HOME">
       <S.imgTop>
         <Header action={color} />
         <S.topText>
@@ -46,7 +46,7 @@ const Dashboard = () => {
         <S.imgLink href="https://www.linkedin.com/in/kellbber/" target="blank"/>
        </S.divIcons>
        <S.arrowAnimated href="#SOBRE">
-        Scroll down <AiOutlineArrowDown size={15}/>
+        role para baixo <AiOutlineArrowDown size={15}/>
        </S.arrowAnimated>
       </S.imgTop>
 

@@ -82,17 +82,18 @@ export const textline = styled.div`
         calc(-4 * (56px + (64 - 56) * ((100vw - 320px) / (1600 - 320))))
       );
     }
-    85% {
+    80% {
       transform: translateY(
         calc(-5 * (56px + (64 - 56) * ((100vw - 320px) / (1600 - 320))))
       );
     }
-    90% {
+    
+    85% {
       transform: translateY(
         calc(-6 * (56px + (64 - 56) * ((100vw - 320px) / (1600 - 320))))
       );
     }
-    100% {
+    90% {
       transform: translateY(
         calc(-6 * (56px + (64 - 56) * ((100vw - 320px) / (1600 - 320))))
       );

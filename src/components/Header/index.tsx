@@ -13,7 +13,7 @@ const Header = ({action}:Action) => {
       <S.menu>
         <ul>
         <li>
-            <a href="#">HOME</a>
+            <a href="#HOME">HOME</a>
           </li>
           <li>
             <a href="#SOBRE">SOBRE</a>
