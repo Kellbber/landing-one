@@ -4,5 +4,7 @@ export const colors = {
 
     detailColor:"#e4142c",
 
-    backgroundAbout: "rgba(0,0,0)"
+    backgroundAbout: "rgba(0,0,0)",
+
+    detailButton:"#ff4c4c"
 }

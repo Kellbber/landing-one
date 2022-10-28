@@ -229,6 +229,7 @@ export const arrowAnimated = styled.a`
   left: calc(50% - 15px);
   bottom: 100px;
   text-transform: uppercase;
+  text-decoration: none;
   font-size: 10px;
   font-weight: 600;
   font-weight: 500;

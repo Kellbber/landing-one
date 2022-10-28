@@ -1,5 +1,5 @@
 import styled, {css} from 'styled-components'
-
+import person from '../../assets/images/person-about.jpg'
 export const background = styled.section`
 ${({theme})=>css`
 
@@ -50,5 +50,16 @@ color: rgba(169,169,169);
 line-height: 22px;
 
 `}
+
+`
+export const divImg = styled.div`
+display: flex;
+width: 50%;
+align-items: center;
+justify-content: center;
+background: url(${person});
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 
 `
