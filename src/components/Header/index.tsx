@@ -6,9 +6,9 @@ type Action = {
 }
 const Header = ({action}:Action) => {
   return (
-    <S.Header style={{backgroundColor: action ? "rgba(0,0,0,0.8)" : "transparent"}}>
+    <S.Header style={{backgroundColor: action ? "rgba(66,65,65,0.9)" : "transparent"}}>
       <S.logo>
-        kellbber <S.point>.</S.point>
+        nome <S.point>.</S.point>
       </S.logo>
       <S.menu>
         <ul>
@@ -16,7 +16,7 @@ const Header = ({action}:Action) => {
             <a href="#">HOME</a>
           </li>
           <li>
-            <a href="#">SOBRE</a>
+            <a href="#SOBRE">SOBRE</a>
           </li>
           <li>
             <a href="#">SERVIÇOS</a>

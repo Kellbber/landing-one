@@ -4,6 +4,7 @@ import * as S from "./style";
 import { useState, useEffect } from "react";
 
 import {AiOutlineArrowDown} from 'react-icons/ai'
+import About from "../../components/About";
 const Dashboard = () => {
   
   const [color, setColor] = useState<boolean>(false);
@@ -44,12 +45,12 @@ const Dashboard = () => {
         <S.imgGit href="https://www.github.com/Kellbber" target="blank"/>
         <S.imgLink href="https://www.linkedin.com/in/kellbber/" target="blank"/>
        </S.divIcons>
-       <S.arrowAnimated>
+       <S.arrowAnimated href="#SOBRE">
         Scroll down <AiOutlineArrowDown size={15}/>
        </S.arrowAnimated>
       </S.imgTop>
 
-      <S.imgTop></S.imgTop>
+      <About/>
     </S.background>
   );
 };

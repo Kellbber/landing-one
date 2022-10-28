@@ -232,6 +232,8 @@ export const arrowAnimated = styled.a`
   font-size: 10px;
   font-weight: 600;
   font-weight: 500;
+  list-style: none;
+  outline: none;
   color: ${theme.colors.primaryColor};
   writing-mode: vertical-rl;
   text-align: center;
