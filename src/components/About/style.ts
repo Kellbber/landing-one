@@ -2,10 +2,12 @@ import styled, {css} from 'styled-components'
 
 export const background = styled.section`
 ${({theme})=>css`
-background-color: ${theme.colors.backgroundAbout};
+
 width: 100%;
-height: 100vh;
-justify-content: center;
+height: 60vh;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
 display: flex;
 
 `}
@@ -21,7 +23,32 @@ export const title = styled.h2`
     text-transform: uppercase;
     letter-spacing: -0.04em;
     font-family: ${theme.constants.textTopFontFamily};
-    text-align: right;
+    margin-top: 3rem;
+    margin-left: 1rem;
     `}
+
+
+`
+
+export const divText = styled.div`
+display: flex;
+width: 50%;
+flex-direction: column;
+background-color: rgba(0,0,0,0.97);
+`
+
+export const text = styled.p`
+${({theme})=>css`
+display: flex;
+align-items: center;
+margin-left: 1rem;
+width: 100%;
+margin-top: 1rem;
+font-family: ${theme.constants.textTopFontFamily};
+font-size: .8rem;
+color: rgba(169,169,169);
+line-height: 22px;
+
+`}
 
 `
