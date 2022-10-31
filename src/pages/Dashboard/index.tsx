@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../../components/Header";
 import * as S from "./style";
 import { useState, useEffect } from "react";
-
+import {BsArrowUpShort} from 'react-icons/bs'
 import {AiOutlineArrowDown} from 'react-icons/ai'
 import About from "../../components/About";
 import BoxService from "../../components/BoxService";
@@ -21,6 +21,11 @@ const Dashboard = () => {
 
   return (
     <S.background id="HOME">
+      {color ?
+      <S.scrollToTop href="#HOME">
+        <BsArrowUpShort size={25}/>
+      </S.scrollToTop>
+      : null}
       <S.imgTop>
         <Header action={color} />
         <S.topText>
@@ -52,6 +57,7 @@ const Dashboard = () => {
       </S.imgTop>
       <About/>
       <BoxService/>
+
     </S.background>
   );
 };

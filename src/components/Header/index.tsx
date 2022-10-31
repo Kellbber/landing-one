@@ -8,7 +8,7 @@ const Header = ({action}:Action) => {
   return (
     <S.Header style={{backgroundColor: action ? "rgba(66,65,65,0.9)" : "transparent"}}>
       <S.logo>
-        nome <S.point>.</S.point>
+        kellbber <S.point>.</S.point>
       </S.logo>
       <S.menu>
         <ul>
@@ -19,7 +19,7 @@ const Header = ({action}:Action) => {
             <a href="#SOBRE">SOBRE</a>
           </li>
           <li>
-            <a href="#">SERVIÇOS</a>
+            <a href="#SERVICOS">SERVIÇOS</a>
           </li>
           <li>
             <a href="#">CONTATO</a>

@@ -1,11 +1,92 @@
-import React from 'react'
-import * as S from './style'
+import React from "react";
+import * as S from "./style";
+import { GiDutchBike } from "react-icons/gi";
+import { FaThemeco } from "react-icons/fa";
+import { SiMarketo } from "react-icons/si";
+import { BiMobileAlt } from "react-icons/bi";
+import { BsFillLayersFill } from "react-icons/bs";
+import { FaReact } from "react-icons/fa";
 const BoxService = () => {
   return (
     <S.backgroundService>
-
+      <S.divText>
+        <S.title>serviços</S.title>
+        <S.text>
+          Usando das melhores tecnologias para tornar tudo que você sempre
+          sonhou em realidade.
+        </S.text>
+      </S.divText>
+      <S.divServices>
+        <S.oneService id="SERVICOS">
+          <S.icon>
+            <GiDutchBike size={35} color="#ff4c4c" />
+          </S.icon>
+          <S.titleService>
+            <S.textServiceTitle>RESPONSIVIDADE</S.textServiceTitle>
+          </S.titleService>
+          <S.textOneService>
+            Deixando seu site disponível para todos os dispositivos.
+          </S.textOneService>
+        </S.oneService>
+        <S.oneService>
+          <S.icon>
+            <FaThemeco size={30} color="#ff4c4c" />
+          </S.icon>
+          <S.titleService>
+            <S.textServiceTitle>TEMA</S.textServiceTitle>
+          </S.titleService>
+          <S.textOneService>
+            Criarei um tema único, deixando com a sua cara.
+          </S.textOneService>
+        </S.oneService>
+        <S.oneService>
+          <S.icon>
+            <SiMarketo size={30} color="#ff4c4c" />
+          </S.icon>
+          <S.titleService>
+            <S.textServiceTitle>ESCALONÁVEL</S.textServiceTitle>
+          </S.titleService>
+          <S.textOneService>
+            Seu site receberá a melhor arquitetura, para no futuro receber novos
+            updates.
+          </S.textOneService>
+        </S.oneService>
+        <S.oneService>
+          <S.icon>
+            <BiMobileAlt size={30} color="#ff4c4c" />
+          </S.icon>
+          <S.titleService>
+            <S.textServiceTitle>DISPOSITIVO MÓVEL</S.textServiceTitle>
+          </S.titleService>
+          <S.textOneService>
+            Seu site será totalmente adaptado para todo tipo e tamanho de tela.
+          </S.textOneService>
+        </S.oneService>
+        <S.oneService>
+          <S.icon>
+            <BsFillLayersFill size={30} color="#ff4c4c" />
+          </S.icon>
+          <S.titleService>
+            <S.textServiceTitle>INTERFACE</S.textServiceTitle>
+          </S.titleService>
+          <S.textOneService>
+        Desenhos de sites para produção, seguindo suas ideias e dicas.
+          </S.textOneService>
+        </S.oneService>
+        <S.oneService>
+          <S.icon>
+            <FaReact size={30} color="#ff4c4c" />
+          </S.icon>
+          <S.titleService>
+            <S.textServiceTitle>UPDATES</S.textServiceTitle>
+          </S.titleService>
+          <S.textOneService>
+Atualizarei quaisquer que sejam as suas novas ideias para o site.
+          </S.textOneService>
+        </S.oneService>
+      </S.divServices>
     </S.backgroundService>
-  )
-}
+  );
+};
 
 export default BoxService;

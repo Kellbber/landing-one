@@ -54,8 +54,7 @@ export const textContainer = styled.div`
 `;
 export const textline = styled.div`
   transition: all 0.9s;
-  animation: text-swiper 10s infinite,
-   text-swiper-blur 10s infinite;
+  animation: text-swiper 10s infinite, text-swiper-blur 10s infinite;
   @keyframes text-swiper {
     0% {
       transform: translateY(
@@ -87,7 +86,7 @@ export const textline = styled.div`
         calc(-5 * (56px + (64 - 56) * ((100vw - 320px) / (1600 - 320))))
       );
     }
-    
+
     85% {
       transform: translateY(
         calc(-6 * (56px + (64 - 56) * ((100vw - 320px) / (1600 - 320))))
@@ -184,7 +183,7 @@ export const imgGit = styled.a`
   background-repeat: no-repeat;
   margin-top: 1rem;
   margin-right: 0.5rem;
-  transition: ease-in-out .2s;
+  transition: ease-in-out 0.2s;
   cursor: pointer;
   :hover {
     display: flex;
@@ -208,7 +207,7 @@ export const imgLink = styled.a`
   margin-top: 1rem;
   margin-right: 0.5rem;
   cursor: pointer;
-  transition: ease-in-out .2s;
+  transition: ease-in-out 0.2s;
   :hover {
     display: flex;
     padding: 0.8rem;
@@ -222,29 +221,49 @@ export const imgLink = styled.a`
 `;
 
 export const arrowAnimated = styled.a`
-  ${({theme})=>css`
-  position: absolute;
-  cursor: pointer;
-  width: 40px;
-  height: auto;
-  left: calc(50% - 15px);
-  bottom: 100px;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-size: 10px;
-  font-weight: 600;
-  font-weight: 500;
-  list-style: none;
-  outline: none;
-  color: ${theme.colors.primaryColor};
-  writing-mode: vertical-rl;
-  text-align: center;
-  line-height: 40px;
-  animation: bounce 2s infinite;
-  -webkit-animation: bounce 2s infinite;
-  -moz-animation: bounce 2s infinite;
+  ${({ theme }) => css`
+    position: absolute;
+    cursor: pointer;
+    width: 40px;
+    height: auto;
+    left: calc(50% - 15px);
+    bottom: 100px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 600;
+    font-weight: 500;
+    list-style: none;
+    outline: none;
+    color: ${theme.colors.primaryColor};
+    writing-mode: vertical-rl;
+    text-align: center;
+    line-height: 40px;
+    animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    -moz-animation: bounce 2s infinite;
     -o-animation: bounce 2s infinite;
-  font-family: ${theme.constants.menuFontFamily};
+    font-family: ${theme.constants.menuFontFamily};
   `}
+`;
+export const scrollToTop = styled.a`
+  background-color: #fff;
 
-`
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 50%;
+  line-height: 45px;
+  color: #555;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  cursor: pointer;
+  transition: ease-in-out .2s;
+  :hover{
+    background-color: #282828;
+    color: #fff
+  }
+`;

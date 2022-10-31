@@ -46,7 +46,7 @@ width: 100%;
 margin-top: 1rem;
 font-family: ${theme.constants.textTopFontFamily};
 font-size: .8rem;
-color: rgba(169,169,169);
+color: #bbb;
 line-height: 22px;
 
 `}
