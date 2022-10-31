@@ -6,11 +6,12 @@ import { SiMarketo } from "react-icons/si";
 import { BiMobileAlt } from "react-icons/bi";
 import { BsFillLayersFill } from "react-icons/bs";
 import { FaReact } from "react-icons/fa";
+
 const BoxService = () => {
   return (
     <S.backgroundService>
       <S.divText>
-        <S.title>serviços</S.title>
+        <S.title>SERVIÇOS</S.title>
         <S.text>
           Usando das melhores tecnologias para tornar tudo que você sempre
           sonhou em realidade.
@@ -36,7 +37,7 @@ const BoxService = () => {
             <S.textServiceTitle>TEMA</S.textServiceTitle>
           </S.titleService>
           <S.textOneService>
-            Criarei um tema único, deixando com a sua cara.
+            Temas únicos, deixando o visual com a sua cara.
           </S.textOneService>
         </S.oneService>
         <S.oneService>
@@ -47,8 +48,7 @@ const BoxService = () => {
             <S.textServiceTitle>ESCALONÁVEL</S.textServiceTitle>
           </S.titleService>
           <S.textOneService>
-            Seu site receberá a melhor arquitetura, para no futuro receber novos
-            updates.
+            Arquitetura limpa e organizada para eventuais atualizações.
           </S.textOneService>
         </S.oneService>
         <S.oneService>
@@ -59,7 +59,7 @@ const BoxService = () => {
             <S.textServiceTitle>DISPOSITIVO MÓVEL</S.textServiceTitle>
           </S.titleService>
           <S.textOneService>
-            Seu site será totalmente adaptado para todo tipo e tamanho de tela.
+            Responsivo e adaptado para todo tamanho de tela.
           </S.textOneService>
         </S.oneService>
         <S.oneService>
@@ -70,7 +70,7 @@ const BoxService = () => {
             <S.textServiceTitle>INTERFACE</S.textServiceTitle>
           </S.titleService>
           <S.textOneService>
-        Desenhos de sites para produção, seguindo suas ideias e dicas.
+            Desenhos de sites para produção, seguindo suas ideias e dicas.
           </S.textOneService>
         </S.oneService>
         <S.oneService>
@@ -81,7 +81,7 @@ const BoxService = () => {
             <S.textServiceTitle>UPDATES</S.textServiceTitle>
           </S.titleService>
           <S.textOneService>
-Atualizarei quaisquer que sejam as suas novas ideias para o site.
+            Atualizações em suas páginas já existentes ou criadas por mim.
           </S.textOneService>
         </S.oneService>
       </S.divServices>

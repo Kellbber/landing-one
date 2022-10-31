@@ -6,6 +6,7 @@ import {BsArrowUpShort} from 'react-icons/bs'
 import {AiOutlineArrowDown} from 'react-icons/ai'
 import About from "../../components/About";
 import BoxService from "../../components/BoxService";
+import Portfolio from "../../components/Portfolio";
 const Dashboard = () => {
   
   const [color, setColor] = useState<boolean>(false);
@@ -57,7 +58,7 @@ const Dashboard = () => {
       </S.imgTop>
       <About/>
       <BoxService/>
-
+      <Portfolio/>
     </S.background>
   );
 };

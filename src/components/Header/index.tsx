@@ -22,6 +22,9 @@ const Header = ({action}:Action) => {
             <a href="#SERVICOS">SERVIÇOS</a>
           </li>
           <li>
+            <a href="#PORTFOLIO">PORTIFÓLIO</a>
+          </li>
+          <li>
             <a href="#">CONTATO</a>
           </li>
         </ul>

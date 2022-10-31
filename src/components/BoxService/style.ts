@@ -35,14 +35,15 @@ export const text = styled.p`
 
 export const title = styled.h2`
   ${({ theme }) => css`
-    font-size: 32px;
+  font-size: 32px;
     color: #fff;
     margin: 0 0 10px;
     font-weight: 600;
     line-height: 1.2;
     text-transform: uppercase;
     letter-spacing: -0.04em;
-    font-family: ${theme.constants.menuFontFamily};
+    font-family: ${theme.constants.textTopFontFamily};
+    margin-top: 3rem;
     margin-left: 1rem;
   `}
 `;
