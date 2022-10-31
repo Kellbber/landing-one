@@ -42,6 +42,11 @@ export const text = styled.p`
       text-align: center;
       line-height: 22px;
     }
+    @media only screen and (max-width: 500px) {
+      font-size: .8rem;
+      text-align: center;
+      line-height: 22px;
+    }
   `}
 `;
 
@@ -66,7 +71,7 @@ export const title = styled.h2`
       
     }
     @media only screen and (max-width: 500px) {
-      font-size: 2.5rem;
+      font-size: 2rem;
       text-align: center;
       
     }
@@ -115,6 +120,7 @@ export const oneService = styled.div`
     @media only screen and (max-width: 380px) {
       width: 30%;
       height: 17vh;
+      
     }
   `}
 `;
@@ -135,6 +141,7 @@ export const titleService = styled.div`
   display: flex;
   width: 100%;
   justify-content: center;
+
 `;
 
 export const textServiceTitle = styled.p`
@@ -153,7 +160,7 @@ export const textServiceTitle = styled.p`
       font-size: .8rem;
     }
     @media only screen and (max-width: 400px) {
-      font-size: .7rem;
+      font-size: .6rem;
     }
   `}
 `;
@@ -184,7 +191,7 @@ export const textOneService = styled.p`
       margin: 0;
     }
     @media only screen and (max-width: 380px) {
-      font-size: .9rem;
+      font-size: .7rem;
       text-align: center;
       align-items: center;
       justify-content: center;
