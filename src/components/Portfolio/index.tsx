@@ -16,16 +16,16 @@ const Portfolio = () => {
 
       <S.divServices>
         <S.firstProject href="https://colunareta.vercel.app" target="blank">
-        <TbHeartRateMonitor size={200}/>
+        <TbHeartRateMonitor size={150}/>
         </S.firstProject>
         <S.secondProject href="https://projeto-megadrive.vercel.app" target="blank">
-          <GiConsoleController size={200}/>
+          <GiConsoleController size={150}/>
         </S.secondProject>
         <S.thirdProject  href="https://league-client-clone-6sgu.vercel.app" target="blank">
-        <SiPremierleague size={200}/>
+        <SiPremierleague size={150}/>
         </S.thirdProject>
         <S.fourthProject href="https://www.figma.com/proto/Lg5Gq7rzLpwPCjq9MwoV5X/Petlove" target="blank">
-        <SiAntdesign size={200}/>
+        <SiAntdesign size={150}/>
         </S.fourthProject>
       </S.divServices>
     </S.background>

@@ -42,7 +42,7 @@ const BoxService = () => {
         </S.oneService>
         <S.oneService>
           <S.icon>
-            <SiMarketo size={30} color="#ff4c4c" />
+            <SiMarketo size={25} color="#ff4c4c" />
           </S.icon>
           <S.titleService>
             <S.textServiceTitle>ESCALONÁVEL</S.textServiceTitle>

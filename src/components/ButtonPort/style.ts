@@ -41,4 +41,11 @@ export const button = styled.button`
   right: 100%;
 }
   `}
+  @media only screen and (max-width: 900px) {
+      margin: .3rem 0 .3rem 1rem; 
+      font-size: .8rem;
+      width: 60%;
+     align-items: center;
+     justify-content: center;
+    }
 `;

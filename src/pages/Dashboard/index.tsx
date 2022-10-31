@@ -59,8 +59,8 @@ const Dashboard = () => {
       </S.imgTop>
       <About/>
       <BoxService/>
-      <Portfolio/>
-      <Contact/>
+      {/* <Portfolio/> */}
+      {/* <Contact/> */}
     </S.background>
   );
 };

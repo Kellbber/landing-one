@@ -6,7 +6,12 @@ width: 100%;
 height: 100vh;
 
 background-color: rgba(0,0,0,0.97);
+@media only screen and (max-width: 900px) {
 
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+    }
 `
 
 
@@ -15,8 +20,12 @@ export const divText = styled.div`
   width: 50%;
   height: 100vh;
   justify-content: center;
-
   flex-direction: column;
+  @media only screen and (max-width: 900px) {
+      justify-content: center;
+      align-items: center;
+      margin-top: 2rem;
+    }
 `;
 
 export const text = styled.p`
@@ -30,6 +39,12 @@ export const text = styled.p`
     font-size: 0.8rem;
     color: #bbb;
     line-height: 22px;
+    @media only screen and (max-width: 900px) {
+      text-align: center;
+      display: flex;
+      justify-content: center;
+    }
+
   `}
 `;
 
@@ -45,6 +60,10 @@ export const title = styled.h2`
     font-family: ${theme.constants.textTopFontFamily};
     margin-top: 3rem;
     margin-left: 1rem;
+    @media only screen and (max-width: 900px) {
+        font-size: 22px;
+        text-align: center;
+    }
   `}
 `;
 export const divServices = styled.div`
@@ -54,6 +73,11 @@ export const divServices = styled.div`
   align-items: flex-start;
   justify-content: space-around;
   flex-wrap: wrap;
+  @media only screen and (max-width: 900px) {
+      width: 100%;
+      justify-content: space-around;
+      align-items: center;
+    }
 `;
 
 export const firstProject = styled.a`
@@ -76,6 +100,10 @@ color: rgba(255,255,255,0.97);
     border: 10px solid rgb(46,168,220);
     color: gray;
 }
+@media only screen and (max-width: 900px) {
+      height: 20vh;
+      width: 20%;
+    }
 `}
 
 `
@@ -99,6 +127,10 @@ color: rgba(255,255,255,0.97);
     border: 10px solid #ff4c4c;
     color: gray;
 }
+@media only screen and (max-width: 900px) {
+      height: 20vh;
+      width: 20%;
+    }
 `}
 
 `
@@ -122,6 +154,10 @@ color: rgba(255,255,255,0.97);
     border: 10px solid #0A956B;
     color: gray;
 }
+@media only screen and (max-width: 900px) {
+      height: 20vh;
+      width: 20%;
+    }
 `}
 
 `
@@ -145,6 +181,10 @@ color: rgba(255,255,255,0.97);
     border: 10px solid #0F102E;
     color: gray;
 }
+@media only screen and (max-width: 900px) {
+      width: 20%;
+      height: 20vh;
+    }
 `}
 
 `

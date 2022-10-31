@@ -40,6 +40,7 @@ background-color: rgba(0,0,0,0.97);
   width: 100%;
   align-items: center;
   justify-content: center;
+
 }
 `
 
@@ -48,7 +49,7 @@ ${({theme})=>css`
 display: flex;
 align-items: center;
 margin-left: 1rem;
-width: 100%;
+width: 80%;
 margin-top: 1rem;
 font-family: ${theme.constants.textTopFontFamily};
 font-size: .8rem;

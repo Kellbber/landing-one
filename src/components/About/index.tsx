@@ -10,9 +10,9 @@ const About = () => {
         SOBRE MIM
     </S.title>
     <S.text>
-      Sou desenvolvedor e me comprometo com as funcionalidades.<br/>
-      Maximizo a qualidade e eficiência das minhas entregas.<br/>
-      Utilizo das melhores tecnologias do mercado, sempre atribuindo com as regras de negócio de sua empresa.<br/>
+      Sou desenvolvedor e me comprometo com as funcionalidades.
+      Maximizo a qualidade e eficiência das minhas entregas.
+      Utilizo das melhores tecnologias do mercado, sempre atribuindo com as regras de negócio de sua empresa.
       Cultivo sempre a cultura de atendimento individual e profissional.
     </S.text>
     <Button/>
