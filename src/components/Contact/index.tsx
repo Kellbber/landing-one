@@ -1,8 +1,6 @@
 import React, { useState } from "react";
-import ButtonSubmit from "../ButtonWhats";
-import * as S from "./style";
 import { IoLogoWhatsapp } from "react-icons/io";
-import { stringify } from "querystring";
+import * as S from "./style";
 interface Name{
   name: string;
 }

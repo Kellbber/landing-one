@@ -48,4 +48,7 @@ export const button = styled.button`
      align-items: center;
      justify-content: center;
     }
+    @media only screen and (max-width: 500px) {
+      display: none;
+    }
 `;

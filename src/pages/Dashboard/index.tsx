@@ -59,7 +59,7 @@ const Dashboard = () => {
       </S.imgTop>
       <About/>
       <BoxService/>
-      {/* <Portfolio/> */}
+      <Portfolio/>
       {/* <Contact/> */}
     </S.background>
   );

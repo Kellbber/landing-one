@@ -22,7 +22,7 @@ export const divText = styled.div`
   justify-content: center;
   flex-direction: column;
   @media only screen and (max-width: 900px) {
-      justify-content: center;
+      justify-content: flex-start;
       align-items: center;
       margin-top: 2rem;
     }
@@ -43,8 +43,19 @@ export const text = styled.p`
       text-align: center;
       display: flex;
       justify-content: center;
+      font-size: 1.5rem;
+      line-height: 32px;
+      margin-bottom: 1rem;
     }
-
+    @media only screen and (max-width: 770px) {
+        font-size: 1rem;
+        text-align: center;
+    }
+    @media only screen and (max-width: 520px) {
+        font-size: .8rem;
+        text-align: center;
+        line-height: 20px;
+    }
   `}
 `;
 
@@ -61,7 +72,11 @@ export const title = styled.h2`
     margin-top: 3rem;
     margin-left: 1rem;
     @media only screen and (max-width: 900px) {
-        font-size: 22px;
+        font-size: 30px;
+        text-align: center;
+    }
+    @media only screen and (max-width: 770px) {
+        font-size: 25px;
         text-align: center;
     }
   `}
@@ -76,7 +91,18 @@ export const divServices = styled.div`
   @media only screen and (max-width: 900px) {
       width: 100%;
       justify-content: space-around;
-      align-items: center;
+      align-items: flex-start; 
+    }
+    @media only screen and (max-width: 590px) {
+      width: 100%;
+      justify-content: space-evenly;
+      align-items:center;
+    }
+    @media only screen and (max-width: 512px) {
+      justify-content: space-around;
+    }
+    @media only screen and (max-width: 400px) {
+      justify-content: space-evenly;
     }
 `;
 
@@ -103,6 +129,17 @@ color: rgba(255,255,255,0.97);
 @media only screen and (max-width: 900px) {
       height: 20vh;
       width: 20%;
+    }
+    @media only screen and (max-width: 530px) {
+      width: 18%;
+    }
+    @media only screen and (max-width: 400px) {
+      width: 22%;
+      height: 20vh;
+    }
+    @media only screen and (max-width: 360px) {
+      width: 22%;
+      height: 20vh;
     }
 `}
 
@@ -131,6 +168,17 @@ color: rgba(255,255,255,0.97);
       height: 20vh;
       width: 20%;
     }
+    @media only screen and (max-width: 530px) {
+      width: 18%;
+    }
+    @media only screen and (max-width: 400px) {
+      width: 22%;
+      height: 20vh;
+    }
+    @media only screen and (max-width: 360px) {
+      width: 22%;
+      height: 20vh;
+    }
 `}
 
 `
@@ -158,6 +206,17 @@ color: rgba(255,255,255,0.97);
       height: 20vh;
       width: 20%;
     }
+    @media only screen and (max-width: 530px) {
+      width: 18%;
+    }
+    @media only screen and (max-width: 400px) {
+      width: 22%;
+      height: 20vh;
+    }
+    @media only screen and (max-width: 360px) {
+      width: 22%;
+      height: 20vh;
+    }
 `}
 
 `
@@ -182,7 +241,19 @@ color: rgba(255,255,255,0.97);
     color: gray;
 }
 @media only screen and (max-width: 900px) {
-      width: 20%;
+      width: 18%;
+      height: 20vh;
+    }
+    @media only screen and (max-width: 530px) {
+      width: 18%;
+      height: 20vh;
+    }
+    @media only screen and (max-width: 400px) {
+      width: 22%;
+      height: 20vh;
+    }
+    @media only screen and (max-width: 360px) {
+      width: 22%;
       height: 20vh;
     }
 `}
