@@ -9,6 +9,11 @@ export const backgroundService = styled.section`
   background-size: cover;
   width: 100%;
   height: 100vh;
+  @media only screen and (max-width: 770px) {
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+    }
 `;
 
 export const divText = styled.div`
@@ -30,6 +35,7 @@ export const text = styled.p`
     font-size: 0.8rem;
     color: #bbb;
     line-height: 22px;
+
   `}
 `;
 
@@ -45,6 +51,9 @@ export const title = styled.h2`
     font-family: ${theme.constants.textTopFontFamily};
     margin-top: 3rem;
     margin-left: 1rem;
+    @media only screen and (max-width: 380px){
+      font-size: 1rem;
+    }
   `}
 `;
 
@@ -55,6 +64,9 @@ export const divServices = styled.div`
   align-items: flex-start;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  @media only screen and (max-width: 485px){
+     margin-bottom: 1rem;
+    }
 `;
 
 export const oneService = styled.div`
@@ -69,6 +81,14 @@ export const oneService = styled.div`
     :hover{
       background-color: rgba(255, 255, 255, 0.07);
     }
+    @media only screen and (max-width: 770px){
+      height: 20vh;
+      
+    }
+    @media only screen and (max-width: 485px){
+    
+    }
+
   `}
 `;
 export const icon = styled.div`
@@ -82,6 +102,7 @@ export const titleService = styled.div`
   display: flex;
   width: 100%;
   justify-content: center;
+
 `;
 
 export const textServiceTitle= styled.p`
@@ -93,6 +114,15 @@ font-family: ${theme.constants.menuFontFamily};
 color: white;
 font-weight: 800;
 margin: .2rem 0 0 .5rem;
+@media only screen and (max-width: 770px){
+      font-size: .6rem;
+    }
+    @media only screen and (max-width: 485px){
+      font-size: .5rem;
+    }
+    @media only screen and (max-width: 400px){
+      font-size: .4rem;
+    }
 `}
 
 `
@@ -106,6 +136,12 @@ font-weight: 400;
 font-size: .8rem;
 
 margin: .5rem 0 0 .5rem;
+@media only screen and (max-width: 770px){
+      font-size: .6rem;
+    }
+    @media only screen and (max-width: 485px){
+      font-size: .5rem;
+    }
 
 `}
 `

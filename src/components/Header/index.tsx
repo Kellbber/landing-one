@@ -1,34 +1,48 @@
 import React from "react";
 import * as S from "./style";
+import { useState } from "react";
 
 type Action = {
-  action:boolean;
-}
-const Header = ({action}:Action) => {
+  action: boolean;
+};
+
+const Header = ({ action }: Action) => {
+  
+  const [extend, setExtend] = useState<boolean>(false);
+
   return (
-    <S.Header style={{backgroundColor: action ? "rgba(66,65,65,0.9)" : "transparent"}}>
-      <S.logo>
-        kellbber <S.point>.</S.point>
-      </S.logo>
-      <S.menu>
-        <ul>
-        <li>
-            <a href="#HOME">HOME</a>
-          </li>
-          <li>
-            <a href="#SOBRE">SOBRE</a>
-          </li>
-          <li>
-            <a href="#SERVICOS">SERVIÇOS</a>
-          </li>
-          <li>
-            <a href="#PORTFOLIO">PORTIFÓLIO</a>
-          </li>
-          <li>
-            <a href="#">CONTATO</a>
-          </li>
-        </ul>
-      </S.menu>
+    <S.Header
+     
+      style={{ backgroundColor: action ? "rgba(66,65,65,0.9)" : "transparent" }}
+    >
+      <S.NavbarInnerContainer>
+        <S.leftContainer>
+          <S.NavbarLinkContainer>
+            <S.NavbarLink href="#HOME">HOME</S.NavbarLink>
+            <S.NavbarLink href="#SERVICOS">SERVIÇOS</S.NavbarLink>
+            <S.NavbarLink href="#PORTFOLIO">PORTIFÓLIO</S.NavbarLink>
+            <S.NavbarLink href="#CONTACT">CONTATO</S.NavbarLink>
+            <S.OpenLinksButton onClick={()=>{
+              setExtend((curr)=>!curr)
+              }}>
+                {extend? <>&#10005;</>:<>&#8801;</>}
+              </S.OpenLinksButton>
+          </S.NavbarLinkContainer>
+           </S.leftContainer>
+        <S.rightContainer> 
+          <S.logo>
+            kellbber <S.point>.</S.point>
+          </S.logo>
+        </S.rightContainer>
+      </S.NavbarInnerContainer>
+      {extend &&(
+      <S.NavbarExtendContainer>
+      <S.NavbarLinkExtend href="#HOME">HOME</S.NavbarLinkExtend>
+            <S.NavbarLinkExtend href="#SERVICOS">SERVIÇOS</S.NavbarLinkExtend>
+            <S.NavbarLinkExtend href="#PORTFOLIO">PORTIFÓLIO</S.NavbarLinkExtend>
+            <S.NavbarLinkExtend href="#CONTACT">CONTATO</S.NavbarLinkExtend>
+      </S.NavbarExtendContainer>
+)}
     </S.Header>
   );
 };
