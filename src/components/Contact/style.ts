@@ -183,6 +183,35 @@ font-size: .9rem;
   z-index: 1;
   overflow: hidden;
   padding: 1rem 0 1rem 0;
+  @media only screen and (max-width: 900px) {
+        font-size: .8rem;
+    }
+    @media only screen and (max-width: 800px) {
+      width: 25%;
+        font-size: .7rem
+    }
+    @media only screen and (max-width: 670px) {
+      width: 28%;
+      
+    }
+    @media only screen and (max-width: 580px) {
+        width: 32%;
+    }
+    @media only screen and (max-width: 500px) {
+        width: 35%;
+    }
+    @media only screen and (max-width: 460px) {
+        width: 37%;
+    }
+    @media only screen and (max-width: 430px) {
+        width: 45%;
+    }
+    @media only screen and (max-width: 360px) {
+        font-size: .6rem;
+    }
+    @media only screen and (max-width: 300px) {
+        width: 50%;
+    }
 `}
 
 `
