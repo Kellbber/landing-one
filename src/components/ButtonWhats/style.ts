@@ -46,6 +46,17 @@ font-size: .9rem;
   right: 100%;
 
 }
-
+@media only screen and (max-width: 900px) {
+       font-size: .8rem;
+    }
+    @media only screen and (max-width: 500px) {
+        font-size: 1.2rem;
+    }
+    @media only screen and (max-width: 350px) {
+        font-size: 1rem;
+    }
+    @media only screen and (max-width: 280px) {
+        font-size: .8rem;
+    }
 `}
 `;

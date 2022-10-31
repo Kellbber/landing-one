@@ -5,7 +5,7 @@ type ButtonType = ButtonHTMLAttributes<HTMLButtonElement>;
 const ButtonSubmit = ({...ButtonType}: ButtonType) => {
   return (
 <S.ButtonSubmit{...ButtonType}>
-    
+
 </S.ButtonSubmit>
   )
 }

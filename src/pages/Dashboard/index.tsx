@@ -60,7 +60,7 @@ const Dashboard = () => {
       <About/>
       <BoxService/>
       <Portfolio/>
-      {/* <Contact/> */}
+      <Contact/>
     </S.background>
   );
 };

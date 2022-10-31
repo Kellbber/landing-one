@@ -20,7 +20,18 @@ text-align: center;
 font-weight: 600;
 line-height: 1.2;
 text-align: center;
-
+@media only screen and (max-width: 900px) {
+        font-size: 1.8rem;
+    }
+    @media only screen and (max-width: 500px) {
+        font-size: 1.2rem;
+    }
+    @media only screen and (max-width: 350px) {
+        font-size: 1rem;
+    }
+    @media only screen and (max-width: 280px) {
+        font-size: .8rem;
+    }
 `}
 
 `
@@ -51,6 +62,18 @@ font-size: 1rem;
 color: ${theme.colors.primaryColor};
 margin-top: 2rem;
 margin-bottom: .3rem;
+@media only screen and (max-width: 900px) {
+        font-size: .8rem;
+    }
+    @media only screen and (max-width: 500px) {
+        font-size: .7rem;
+    }
+    @media only screen and (max-width: 350px) {
+        font-size: .6rem;
+    }
+    @media only screen and (max-width: 280px) {
+        font-size: .5rem;
+    }
 `}
 
 `
@@ -109,7 +132,35 @@ font-size: .9rem;
   right: 100%;
 
 }
-
+@media only screen and (max-width: 900px) {
+        font-size: .8rem;
+    }
+    @media only screen and (max-width: 800px) {
+      width: 25%;
+        font-size: .7rem
+    }
+    @media only screen and (max-width: 670px) {
+      width: 28%;
+      
+    }
+    @media only screen and (max-width: 580px) {
+        width: 32%;
+    }
+    @media only screen and (max-width: 500px) {
+        width: 35%;
+    }
+    @media only screen and (max-width: 460px) {
+        width: 37%;
+    }
+    @media only screen and (max-width: 430px) {
+        width: 45%;
+    }
+    @media only screen and (max-width: 360px) {
+        font-size: .6rem;
+    }
+    @media only screen and (max-width: 300px) {
+        width: 50%;
+    }
 `}
 
 `
@@ -150,6 +201,15 @@ export const footer = styled.div`
       width: 100%;
       align-items: center;
       justify-content: center;
+    }
+    @media only screen and (max-width: 900px) {
+        font-size: .8rem;
+    }   
+     @media only screen and (max-width: 700px) {
+        font-size: .7rem;
+    }
+    @media only screen and (max-width: 400px) {
+        font-size: .6rem;
     }
   `}
 `
