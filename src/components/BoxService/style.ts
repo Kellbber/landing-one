@@ -21,8 +21,10 @@ export const divText = styled.div`
   width: 50%;
   height: 100vh;
   justify-content: center;
-
   flex-direction: column;
+  @media only screen and (max-width: 770px) {
+    justify-content: flex-start;
+    }
 `;
 export const text = styled.p`
   ${({ theme }) => css`
@@ -36,9 +38,9 @@ export const text = styled.p`
     color: #bbb;
     line-height: 22px;
     @media only screen and (max-width: 770px) {
-      font-size: 0.6rem;
+      font-size: 1rem;
       text-align: center;
-      line-height: 0px;
+      line-height: 22px;
     }
   `}
 `;
@@ -59,15 +61,21 @@ export const title = styled.h2`
       font-size: 1rem;
     }
     @media only screen and (max-width: 770px) {
-      font-size: 1rem;
+      font-size: 3rem;
       text-align: center;
+      
+    }
+    @media only screen and (max-width: 500px) {
+      font-size: 2.5rem;
+      text-align: center;
+      
     }
   `}
 `;
 
 export const divServices = styled.div`
   display: flex;
-  width: 50%;
+  width: 100%;
   height: 100vh;
   align-items: flex-start;
   justify-content: space-evenly;
@@ -75,6 +83,7 @@ export const divServices = styled.div`
   @media only screen and (max-width: 770px) {
     justify-content: space-evenly;
     width: 100%;
+
   }
   @media only screen and (max-width: 485px) {
     margin-bottom: 1rem;
@@ -138,13 +147,13 @@ export const textServiceTitle = styled.p`
     font-weight: 800;
     margin: 0.2rem 0 0 0.5rem;
     @media only screen and (max-width: 770px) {
-      font-size: 0.6rem;
+      font-size: 1rem;
     }
     @media only screen and (max-width: 500px) {
-      font-size: 0.4rem;
+      font-size: .8rem;
     }
     @media only screen and (max-width: 400px) {
-      font-size: 0.3rem;
+      font-size: .7rem;
     }
   `}
 `;
@@ -159,7 +168,7 @@ export const textOneService = styled.p`
 
     margin: 0.5rem 0 0 0.5rem;
     @media only screen and (max-width: 770px) {
-      font-size: 0.6rem;
+      font-size: 1rem;
       text-align: center;
       align-items: center;
       justify-content: center;
@@ -167,7 +176,7 @@ export const textOneService = styled.p`
       margin: 0;
     }
     @media only screen and (max-width: 500px) {
-      font-size: 0.5rem;
+
       text-align: center;
       align-items: center;
       justify-content: center;
@@ -175,7 +184,7 @@ export const textOneService = styled.p`
       margin: 0;
     }
     @media only screen and (max-width: 380px) {
-      font-size: 0.4rem;
+      font-size: .9rem;
       text-align: center;
       align-items: center;
       justify-content: center;
