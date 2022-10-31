@@ -15,22 +15,24 @@ export const leftContainer = styled.div`
   flex: 70%;
   display: flex;
   align-items: center;
-  padding-left: 5%;
+  justify-content: flex-end;
+  margin-right: 2rem;
+
 `;
 
 export const rightContainer = styled.div`
   flex: 30%;
   display: flex;
-  justify-content: flex-end;
-  padding-left: 50px;
+  margin-left: 1rem;
+  margin-top: 1rem;
 `;
 
 export const NavbarExtendContainer = styled.div`
 display: flex;
 flex-direction: column;
 align-items: center;
-width: 30%;
-align-self: flex-start;
+width: 50%;
+align-self: center;
 margin-top: 2rem;
 border-radius: .2rem;
 background: rgba(66,65,65,0.9);
@@ -94,6 +96,12 @@ export const logo = styled.div`
     @media (max-width: 700px){
     font-size: 2rem;
     margin-right: 3rem;
+}
+@media (max-width: 571px){
+  margin-left: 1rem;
+}
+@media (max-width: 380px){
+  margin-left: 2rem;
 }
   `}
 `;

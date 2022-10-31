@@ -1,7 +1,8 @@
 import React from "react";
 import * as S from "./style";
 import { useState } from "react";
-
+import {AiOutlineMenu} from 'react-icons/ai'
+import {MdOutlineFullscreenExit} from 'react-icons/md'
 type Action = {
   action: boolean;
 };
@@ -16,6 +17,11 @@ const Header = ({ action }: Action) => {
       style={{ backgroundColor: action ? "rgba(66,65,65,0.9)" : "transparent" }}
     >
       <S.NavbarInnerContainer>
+        <S.rightContainer> 
+          <S.logo>
+            kellbber <S.point>.</S.point>
+          </S.logo>
+        </S.rightContainer>
         <S.leftContainer>
           <S.NavbarLinkContainer>
             <S.NavbarLink href="#HOME">HOME</S.NavbarLink>
@@ -25,15 +31,10 @@ const Header = ({ action }: Action) => {
             <S.OpenLinksButton onClick={()=>{
               setExtend((curr)=>!curr)
               }}>
-                {extend? <>&#10005;</>:<>&#8801;</>}
+                {extend? <MdOutlineFullscreenExit size={20}/>:<AiOutlineMenu size={20}/>}
               </S.OpenLinksButton>
           </S.NavbarLinkContainer>
            </S.leftContainer>
-        <S.rightContainer> 
-          <S.logo>
-            kellbber <S.point>.</S.point>
-          </S.logo>
-        </S.rightContainer>
       </S.NavbarInnerContainer>
       {extend &&(
       <S.NavbarExtendContainer>
