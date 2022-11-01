@@ -53,7 +53,7 @@ margin-left: 1rem;
 width: 80%;
 margin-top: 1rem;
 font-family: ${theme.constants.textTopFontFamily};
-font-size: .8rem;
+font-size: 1.2rem;
 color: #bbb;
 line-height: 22px;
 @media (max-width: 800px){
@@ -63,7 +63,18 @@ line-height: 22px;
         text-align: center;
         font-size: 1rem;
         width: 60%;
-}
+}   
+ @media only screen and (max-width: 500px) {
+      font-size: .8rem;
+      text-align: center;
+      line-height: 22px;
+    }
+    @media only screen and (max-width: 330px) {
+      font-size: .7rem;
+      text-align: center;
+      line-height: 22px;
+      width: 70%;
+    }
 `}
 
 `

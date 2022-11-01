@@ -14,6 +14,10 @@ export const backgroundService = styled.section`
     justify-content: center;
     align-items: center;
   }
+  @media only screen and (max-width: 500px) {
+    justify-content: flex-start;
+    align-items: center;
+  }
 `;
 
 export const divText = styled.div`
@@ -25,6 +29,9 @@ export const divText = styled.div`
   @media only screen and (max-width: 770px) {
     justify-content: flex-start;
     }
+    @media only screen and (max-width: 500px) {
+      height: 40vh;
+  }
 `;
 export const text = styled.p`
   ${({ theme }) => css`
@@ -34,7 +41,7 @@ export const text = styled.p`
     width: 100%;
     margin-top: 1rem;
     font-family: ${theme.constants.textTopFontFamily};
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     color: #bbb;
     line-height: 22px;
     @media only screen and (max-width: 770px) {
@@ -47,6 +54,7 @@ export const text = styled.p`
       text-align: center;
       line-height: 22px;
     }
+    
   `}
 `;
 
@@ -88,7 +96,9 @@ export const divServices = styled.div`
   @media only screen and (max-width: 770px) {
     justify-content: space-evenly;
     width: 100%;
-
+  }
+  @media only screen and (max-width: 500px) {
+   
   }
   @media only screen and (max-width: 485px) {
     margin-bottom: 1rem;
@@ -155,9 +165,13 @@ export const textServiceTitle = styled.p`
     margin: 0.2rem 0 0 0.5rem;
     @media only screen and (max-width: 770px) {
       font-size: 1rem;
+      
     }
     @media only screen and (max-width: 500px) {
       font-size: .8rem;
+      align-items: center;
+      justify-content: center;
+      color: #ff4c4c;
     }
     @media only screen and (max-width: 400px) {
       font-size: .6rem;
