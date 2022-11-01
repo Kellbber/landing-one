@@ -23,7 +23,7 @@ const Contact = () => {
         VAMOS TRABALHAR JUNTOS
         <br />
         ME CHAME NO WHATSAPP
-        <IoLogoWhatsapp style={{marginLeft:"1rem"}} />
+        <IoLogoWhatsapp size={20}/>
       </S.title>
       <S.form id="CONTACT">
         <S.input type="text"  autoComplete="off" placeholder="Digite seu nome" required name="name" onChange={handleChangeValues}/>
@@ -32,7 +32,7 @@ const Contact = () => {
         <S.buttonContact  href={`https://wa.me/5554996580748?text=Olá,%20meu%20nome%20é%20${name.name}%20e%20gostaria%20de%20fazer%20um%20orçamento!`} target="blank">
           MANDAR MENSAGEM
         </S.buttonContact>
-          :<S.buttonDisable>MANDAR MENSAGEM</S.buttonDisable>}
+          :<S.buttonDisable>MENSAGEM</S.buttonDisable>}
       </S.form>
       <S.footer>
       <p>© 2022 •  Kellbber • Todos os direitos reservados •</p>

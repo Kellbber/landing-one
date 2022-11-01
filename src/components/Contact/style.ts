@@ -20,8 +20,11 @@ font-family: ${theme.constants.menuFontFamily};
 font-size: 2.5rem;
 color: ${theme.colors.primaryColor};
 text-align: center;
+align-items: center;
+justify-content: center;
 font-weight: 600;
 line-height: 1.2;
+width: 100%;
 text-align: center;
 @media only screen and (max-width: 900px) {
         font-size: 1.8rem;
@@ -30,6 +33,9 @@ text-align: center;
     }
     @media only screen and (max-width: 500px) {
         font-size: 1.2rem;
+        align-self: center;
+        justify-content: center;
+        align-items: center;
     }
     @media only screen and (max-width: 350px) {
         font-size: 1rem;
@@ -69,10 +75,16 @@ margin-top: 2rem;
 margin-bottom: .3rem;
 @media only screen and (max-width: 900px) {
         font-size: .8rem;
+        width: 40%;
+    }   
+     @media only screen and (max-width: 670px) {
+        width: 50%;
     }
+    
     @media only screen and (max-width: 500px) {
         font-size: .7rem;
     }
+
     @media only screen and (max-width: 350px) {
         font-size: .6rem;
     }
@@ -87,7 +99,19 @@ export const DivLine = styled.div`
   align-self: center;
   padding: .5px;
   background-color: #5d5f65;
-
+  @media only screen and (max-width: 900px) {
+        font-size: .8rem;
+        width: 40%;
+    }
+    @media only screen and (max-width: 670px) {
+      width: 50%;
+    }
+    @media only screen and (max-width: 350px) {
+    
+    }
+    @media only screen and (max-width: 280px) {
+       
+    }
 `
 
 export const buttonContact = styled.a`
@@ -183,7 +207,7 @@ font-size: .9rem;
   font-weight: 600;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+justify-content: center;
   position: relative;
   z-index: 1;
   overflow: hidden;
@@ -203,20 +227,13 @@ font-size: .9rem;
         width: 32%;
     }
     @media only screen and (max-width: 500px) {
-        width: 35%;
+      font-size: .6rem;
+        width: 25%;
     }
     @media only screen and (max-width: 460px) {
         width: 37%;
     }
-    @media only screen and (max-width: 430px) {
-        width: 45%;
-    }
-    @media only screen and (max-width: 360px) {
-        font-size: .6rem;
-    }
-    @media only screen and (max-width: 300px) {
-        width: 50%;
-    }
+   
 `}
 
 `
