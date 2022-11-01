@@ -25,6 +25,8 @@ export const divText = styled.div`
       justify-content: flex-start;
       align-items: center;
       margin-top: 2rem;
+     
+      height: 60vh;
     }
 `;
 
@@ -74,6 +76,7 @@ export const title = styled.h2`
     @media only screen and (max-width: 900px) {
         font-size: 30px;
         text-align: center;
+        
     }
     @media only screen and (max-width: 770px) {
         font-size: 25px;
@@ -90,16 +93,18 @@ export const divServices = styled.div`
   flex-wrap: wrap;
   @media only screen and (max-width: 900px) {
       width: 100%;
-      justify-content: space-around;
+      justify-content: space-evenly;
       align-items: flex-start; 
     }
     @media only screen and (max-width: 590px) {
       width: 100%;
       justify-content: space-evenly;
-      align-items:center;
+      align-items:flex-start;
     }
-    @media only screen and (max-width: 512px) {
-      justify-content: space-around;
+    @media only screen and (max-width: 530px) {
+
+      
+      justify-content: space-evenly;
     }
     @media only screen and (max-width: 400px) {
       justify-content: space-evenly;
@@ -127,11 +132,12 @@ color: rgba(255,255,255,0.97);
     color: gray;
 }
 @media only screen and (max-width: 900px) {
-      height: 20vh;
-      width: 20%;
+      width: 30%;
+      height: 25vh;
+      margin-top: 1rem;
     }
     @media only screen and (max-width: 530px) {
-      width: 18%;
+      width: 20%;
     }
     @media only screen and (max-width: 400px) {
       width: 22%;
@@ -165,11 +171,12 @@ color: rgba(255,255,255,0.97);
     color: gray;
 }
 @media only screen and (max-width: 900px) {
-      height: 20vh;
-      width: 20%;
+  width: 30%;
+  height: 25vh;
+      margin-top: 1rem;
     }
     @media only screen and (max-width: 530px) {
-      width: 18%;
+      width: 20%;
     }
     @media only screen and (max-width: 400px) {
       width: 22%;
@@ -203,11 +210,14 @@ color: rgba(255,255,255,0.97);
     color: gray;
 }
 @media only screen and (max-width: 900px) {
-      height: 20vh;
-      width: 20%;
+  width: 30%;
+  height: 25vh;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
     }
     @media only screen and (max-width: 530px) {
-      width: 18%;
+      width: 20%;
+     
     }
     @media only screen and (max-width: 400px) {
       width: 22%;
@@ -241,12 +251,14 @@ color: rgba(255,255,255,0.97);
     color: gray;
 }
 @media only screen and (max-width: 900px) {
-      width: 18%;
-      height: 20vh;
+  width: 30%;
+  height: 25vh;
+  margin-top: 1rem;
+      margin-bottom: 3rem;
     }
     @media only screen and (max-width: 530px) {
-      width: 18%;
-      height: 20vh;
+      width: 20%;
+ 
     }
     @media only screen and (max-width: 400px) {
       width: 22%;

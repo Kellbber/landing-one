@@ -81,8 +81,8 @@ export const title = styled.h2`
     @media only screen and (max-width: 500px) {
       font-size: 2rem;
       text-align: center;
-      
     }
+
   `}
 `;
 

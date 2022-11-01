@@ -27,6 +27,12 @@ export const title = styled.h2`
     @media (max-width: 800px){
         font-size: 34px;
 }
+@media only screen and (max-width: 480px) {
+      font-size: 1.5rem;
+    }
+    @media only screen and (max-width: 400px) {
+      font-size: 1.3rem;
+    }
     `}
 
 
@@ -50,12 +56,12 @@ ${({theme})=>css`
 display: flex;
 align-items: center;
 margin-left: 1rem;
-width: 80%;
+width: 90%;
 margin-top: 1rem;
 font-family: ${theme.constants.textTopFontFamily};
-font-size: 1.2rem;
+font-size: 1rem;
 color: #bbb;
-line-height: 22px;
+line-height: 15px;
 @media (max-width: 800px){
         line-height: 18px;
         align-items: center;
@@ -69,10 +75,14 @@ line-height: 22px;
       text-align: center;
       line-height: 22px;
     }
-    @media only screen and (max-width: 330px) {
+    @media only screen and (max-width: 480px) {
       font-size: .7rem;
+      line-height: 15px;
+    }
+    @media only screen and (max-width: 330px) {
+      font-size: .6rem;
       text-align: center;
-      line-height: 22px;
+      line-height: 12px;
       width: 70%;
     }
 `}

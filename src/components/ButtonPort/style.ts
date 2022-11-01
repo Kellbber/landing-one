@@ -44,9 +44,15 @@ export const button = styled.button`
   @media only screen and (max-width: 900px) {
       margin: .3rem 0 .3rem 1rem; 
       font-size: .8rem;
-      width: 60%;
+      width: 30%;
      align-items: center;
      justify-content: center;
+    }
+    @media only screen and (max-width: 750px) {
+      width: 40%;
+    }
+    @media only screen and (max-width: 570px) {
+      width: 50%;
     }
     @media only screen and (max-width: 500px) {
       margin: .3rem 0 .3rem 1rem; 
@@ -54,5 +60,11 @@ export const button = styled.button`
       width: 50%;
      align-items: center;
      justify-content: center;
+    }
+    @media only screen and (max-width: 350px) {
+      width: 60%
+    }
+    @media only screen and (max-width: 290px) {
+      width: 70%;
     }
 `;

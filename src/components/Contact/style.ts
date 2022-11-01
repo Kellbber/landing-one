@@ -3,11 +3,14 @@ import styled, {css} from 'styled-components'
 export const background = styled.div`
 display: flex;
 width: 100%;
-height: 60vh;
+height: 70vh;
 flex-direction: column;
 background-color: rgba(0,0,0,0.97);
 justify-content: space-between;
 align-items: center;
+@media only screen and (max-width: 900px) {
+        height: 70vh;
+    }
 `
 
 export const title = styled.div`
@@ -22,6 +25,8 @@ line-height: 1.2;
 text-align: center;
 @media only screen and (max-width: 900px) {
         font-size: 1.8rem;
+        margin-top: 1.2rem;
+       
     }
     @media only screen and (max-width: 500px) {
         font-size: 1.2rem;
