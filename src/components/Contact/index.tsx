@@ -30,7 +30,7 @@ const Contact = () => {
         <S.DivLine />
         {name.name?
         <S.buttonContact  href={`https://wa.me/5554996580748?text=Olá,%20meu%20nome%20é%20${name.name}%20e%20gostaria%20de%20fazer%20um%20orçamento!`} target="blank">
-          MANDAR MENSAGEM
+          MENSAGEM
         </S.buttonContact>
           :<S.buttonDisable>MENSAGEM</S.buttonDisable>}
       </S.form>

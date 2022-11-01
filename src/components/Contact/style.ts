@@ -8,8 +8,8 @@ flex-direction: column;
 background-color: rgba(0,0,0,0.97);
 justify-content: space-between;
 align-items: center;
-@media only screen and (max-width: 900px) {
-        height: 70vh;
+@media only screen and (max-width: 770px) {
+        height: 50vh;
     }
 `
 

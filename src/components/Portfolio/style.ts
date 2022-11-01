@@ -12,6 +12,9 @@ background-color: rgba(0,0,0,0.97);
      justify-content: center;
      align-items: center;
     }
+    @media only screen and (max-width: 530px) {
+      height: 70vh;
+    }
 `
 
 
