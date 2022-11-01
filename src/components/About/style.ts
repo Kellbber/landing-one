@@ -8,6 +8,7 @@ background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
 display: flex;
+
 `}
 
 `
@@ -24,7 +25,7 @@ export const title = styled.h2`
     margin-top: 3rem;
     margin-left: 1rem;
     @media (max-width: 800px){
-        font-size: 22px;
+        font-size: 34px;
 }
     `}
 
@@ -39,7 +40,7 @@ background-color: rgba(0,0,0,0.97);
 @media (max-width: 800px){
   width: 100%;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 
 }
 `
@@ -60,6 +61,8 @@ line-height: 22px;
         align-items: center;
         justify-content: center;
         text-align: center;
+        font-size: 1rem;
+        width: 60%;
 }
 `}
 

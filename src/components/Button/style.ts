@@ -44,10 +44,23 @@ export const button = styled.button`
   @media only screen and (max-width: 900px) {
       margin: .3rem 0 .3rem 1rem; 
       font-size: .8rem;
+
       
     }
     @media only screen and (max-width: 800px) {
       margin: .5rem 0 .3rem 1rem;
-      width: 30%; 
+      width: 15%; 
+    }
+    @media only screen and (max-width: 530px) {
+      margin: .5rem 0 .3rem 1rem;
+      width: 20%; 
+    }
+    @media only screen and (max-width: 390px) {
+      margin: .5rem 0 .3rem 1rem;
+      width: 25%; 
+    }
+    @media only screen and (max-width: 290px) {
+      margin: .5rem 0 .3rem 1rem;
+      width: 28%; 
     }
 `;
