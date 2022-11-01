@@ -164,11 +164,15 @@ export const textServiceTitle = styled.p`
     font-weight: 800;
     margin: 0.2rem 0 0 0.5rem;
     @media only screen and (max-width: 770px) {
-      font-size: 1rem;
+      font-size: .8rem;
+      
+    }
+    @media only screen and (max-width: 730px) {
+      font-size: .7rem;
       
     }
     @media only screen and (max-width: 500px) {
-      font-size: .8rem;
+      font-size: .7rem;
       align-items: center;
       justify-content: center;
       color: #ff4c4c;
@@ -189,12 +193,16 @@ export const textOneService = styled.p`
 
     margin: 0.5rem 0 0 0.5rem;
     @media only screen and (max-width: 770px) {
-      font-size: 1rem;
+      font-size: .9rem;
       text-align: center;
       align-items: center;
       justify-content: center;
       align-self: center;
       margin: 0;
+    }
+    @media only screen and (max-width: 660px) {
+      font-size: .8rem;
+
     }
     @media only screen and (max-width: 500px) {
 

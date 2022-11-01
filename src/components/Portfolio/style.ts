@@ -36,7 +36,7 @@ export const text = styled.p`
     width: 100%;
     margin-top: 1rem;
     font-family: ${theme.constants.textTopFontFamily};
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     color: #bbb;
     line-height: 22px;
     @media only screen and (max-width: 900px) {
